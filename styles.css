@@ -7,9 +7,12 @@
 html,
 body {
     background: #000;
-    display: grid;
+    /* display: grid; */
+    display: flex;
     height: 100%;
     place-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .wrapper {
